@@ -2,9 +2,11 @@
   box-sizing: border-box; 
   background-color: #411c1c;
 }
-nav{
+nav ul li {
   display: flex;
-  justify-content: space-between; 
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
   text-align: center;
 }
