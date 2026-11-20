@@ -1,8 +1,11 @@
-import React from 'react'
+import { Outlet } from 'react-router/internal/react-server-client'
 
 function admin() {
   return (
-    <div>admin oldal</div>
+    <main>
+      <h1>Admin oldal</h1>
+      <Outlet/>
+    </main>
   )
 }
 

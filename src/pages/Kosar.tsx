@@ -1,8 +1,9 @@
-import React from 'react'
 
 function Kosar() {
   return (
-    <div>Kosar oldal</div>
+    <main>
+      <h1>Kosar oldal</h1>
+    </main>
   )
 }
 

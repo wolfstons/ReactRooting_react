@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 function UjTermek() {
   return (
-    <div>UjTermek oldal</div>
+    <main>
+      <h1>UjTermek oldal</h1>
+    </main>
   )
 }
 
